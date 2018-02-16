@@ -1,0 +1,6 @@
+# Created during new builds
+build
+program.spec
+
+# Compiled python files
+*.pyc
