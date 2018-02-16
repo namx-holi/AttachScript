@@ -32,7 +32,7 @@ if debug_messages:
 	)
 
 p = subprocess.Popen([
-	normal,
+	config.replacing,
 	filepath
 ])
 returncode = p.wait()
