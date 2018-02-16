@@ -6,8 +6,8 @@ import subprocess, sys
 import Tkinter
 import tkMessageBox
 
+import config
 
-normal = "C:/Program Files (x86)/Microsoft Office/root/Office16/WINWORD.EXE"
 debug_messages = False
 
 
@@ -27,7 +27,7 @@ if debug_messages:
 		"RUNNING FROM {}\nOPENING {}\nWITH {}".format(
 			location_this_is_running,
 			filepath,
-			normal
+			config.replacing
 		)
 	)
 
